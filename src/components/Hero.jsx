@@ -2,6 +2,7 @@ import React from 'react'
 import profilePic from '../assets/raviKumarProfile.webp'
 import { HERO_CONTENT } from '../constants'
 import { motion } from 'framer-motion'
+import profile from '../assets/asim.jpg'
 
 
 
@@ -29,7 +30,7 @@ function Hero() {
             <div className='flex flex-wrap lg:flex-row-reverse'>
                 <div className='w-full lg:w-1/2'>
                     <div className='flex justify-center lg:p-8'>
-                        <motion.img src={profilePic} alt="Ravi Kumar" className='border border-stone-900 rounded-3xl'
+                        <motion.img src={profile} alt="Ravi Kumar" className='border border-stone-900 rounded-3xl'
                         width={650}
                         height={650}
                             initial={{x:100,opacity:1}}
@@ -46,7 +47,7 @@ function Hero() {
                     className='flex flex-col items-center  lg:items-start mt-10'>
                         <motion.h2
                         variants={childVariets}
-                        className='pb-2 text-4xl tracking-tighter lg:text-8xl'>Ravi Kumar</motion.h2>
+                        className='pb-2 text-4xl tracking-tighter lg:text-8xl'>Vaseem ek</motion.h2>
                         <motion.span
                         variants={childVariets} className='bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tighter text-transparent'>Full Stack Developer</motion.span>
                         <motion.p
